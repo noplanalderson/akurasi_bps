@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    background-color: #0a2e65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.login-image {
+    background: url('../../img/backend/login.webp') no-repeat center center;
+    background-size: cover;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.login-form {
+    padding: 40px;
+}
+.login-form .form-group label {
+    font-weight: bold;
+}
+.logo {
+    height: 50px;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background-color: #0061f2;
+    border-color: #0061f2;
+}
+.form-check-label {
+    margin-left: 5px;
+}
+
+/* ---- reset ---- */
+canvas{ display: block; vertical-align: bottom; } 
+/* ---- particles.js container ---- */
+ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; margin-top:-3rem} 

@@ -1,0 +1,282 @@
+[
+  {
+    "menu_id": "1",
+    "menu_label": "Dashboard",
+    "menu_slug": "dashboard",
+    "menu_icon": "fas fa-home",
+    "menu_group": "dasbor",
+    "menu_mode": "r",
+    "menu_sequence": "1",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "2",
+    "menu_label": "Data Master",
+    "menu_slug": "#",
+    "menu_icon": "fas fa-database",
+    "menu_group": "data-master",
+    "menu_mode": "r",
+    "menu_sequence": "2",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "3",
+    "menu_label": "Kelola Kategori",
+    "menu_slug": "kategori",
+    "menu_icon": "fas fa-folder",
+    "menu_group": "data-master",
+    "menu_mode": "r",
+    "menu_sequence": "1",
+    "menu_location": "submenu"
+  },
+  {
+    "menu_id": "4",
+    "menu_label": "Simpan Kategori",
+    "menu_slug": "kategori/simpan",
+    "menu_icon": "fas fa-save",
+    "menu_group": "data-master",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "5",
+    "menu_label": "Hapus Kategori",
+    "menu_slug": "kategori/hapus",
+    "menu_icon": "fas fa-trash-alt",
+    "menu_group": "data-master",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "6",
+    "menu_label": "Kelola Akun",
+    "menu_slug": "akun",
+    "menu_icon": "fas fa-users-cog",
+    "menu_group": "data-master",
+    "menu_mode": "r",
+    "menu_sequence": "2",
+    "menu_location": "submenu"
+  },
+  {
+    "menu_id": "7",
+    "menu_label": "Hapus Akun",
+    "menu_slug": "akun/hapus",
+    "menu_icon": "fas fa-trash-alt",
+    "menu_group": "data-master",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "8",
+    "menu_label": "Simpan Akun",
+    "menu_slug": "akun/simpan",
+    "menu_icon": "fas fa-save",
+    "menu_group": "data-master",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "10",
+    "menu_label": "Kelola Grup",
+    "menu_slug": "grup",
+    "menu_icon": "fas fa-layer-group",
+    "menu_group": "data-master",
+    "menu_mode": "r",
+    "menu_sequence": "3",
+    "menu_location": "submenu"
+  },
+  {
+    "menu_id": "11",
+    "menu_label": "Simpan Grup",
+    "menu_slug": "grup/simpan",
+    "menu_icon": "fas fa-save",
+    "menu_group": "data-master",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "12",
+    "menu_label": "Hapus Grup",
+    "menu_slug": "grup/hapus",
+    "menu_icon": "fas fa-trash-alt",
+    "menu_group": "data-master",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "13",
+    "menu_label": "App Logs",
+    "menu_slug": "logs",
+    "menu_icon": "fas fa-scroll",
+    "menu_group": "logs",
+    "menu_mode": "r",
+    "menu_sequence": "4",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "14",
+    "menu_label": "Sub Bagian Umum",
+    "menu_slug": "dokumen/subbagumum",
+    "menu_icon": "fas fa-file-alt",
+    "menu_group": "content",
+    "menu_mode": "r",
+    "menu_sequence": "5",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "15",
+    "menu_label": "Statistik Sosial",
+    "menu_slug": "dokumen/statsos",
+    "menu_icon": "fas fa-file-alt",
+    "menu_group": "content",
+    "menu_mode": "r",
+    "menu_sequence": "6",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "16",
+    "menu_label": "Statistik Produksi",
+    "menu_slug": "dokumen/statprod",
+    "menu_icon": "fas fa-file-alt",
+    "menu_group": "content",
+    "menu_mode": "r",
+    "menu_sequence": "7",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "17",
+    "menu_label": "Statistik Distribusi",
+    "menu_slug": "dokumen/statdist",
+    "menu_icon": "fas fa-file-alt",
+    "menu_group": "content",
+    "menu_mode": "r",
+    "menu_sequence": "8",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "18",
+    "menu_label": "Nerwilis",
+    "menu_slug": "dokumen/nerwilis",
+    "menu_icon": "fas fa-file-alt",
+    "menu_group": "content",
+    "menu_mode": "r",
+    "menu_sequence": "9",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "19",
+    "menu_label": "IPDS",
+    "menu_slug": "dokumen/ipds",
+    "menu_icon": "fas fa-file-alt",
+    "menu_group": "content",
+    "menu_mode": "r",
+    "menu_sequence": "10",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "20",
+    "menu_label": "Simpan Rincian Dokumen",
+    "menu_slug": "simpan-dokumen",
+    "menu_icon": "fas fa-file-upload",
+    "menu_group": "content",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "21",
+    "menu_label": "Hapus Dokumen",
+    "menu_slug": "hapus-dokumen",
+    "menu_icon": "fas fa-trash-alt",
+    "menu_group": "content",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "22",
+    "menu_label": "Pengaturan",
+    "menu_slug": "#",
+    "menu_icon": "fas fa-cogs",
+    "menu_group": "settings",
+    "menu_mode": "r",
+    "menu_sequence": "11",
+    "menu_location": "mainmenu"
+  },
+  {
+    "menu_id": "23",
+    "menu_label": "Pengaturan Organisasi",
+    "menu_slug": "pengaturan-organisasi",
+    "menu_icon": "fas fa-sitemap",
+    "menu_group": "settings",
+    "menu_mode": "r",
+    "menu_sequence": "1",
+    "menu_location": "submenu"
+  },
+  {
+    "menu_id": "24",
+    "menu_label": "Pengaturan Aplikasi",
+    "menu_slug": "pengaturan-aplikasi",
+    "menu_icon": "fas fa-globe",
+    "menu_group": "settings",
+    "menu_mode": "r",
+    "menu_sequence": "2",
+    "menu_location": "submenu"
+  },
+  {
+    "menu_id": "25",
+    "menu_label": "Simpan Pengaturan Organisasi",
+    "menu_slug": "pengaturan-organisasi/simpan",
+    "menu_icon": "fas fa-save",
+    "menu_group": "settings",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "26",
+    "menu_label": "Simpan Pengaturan Aplikasi",
+    "menu_slug": "pengaturan-aplikasi/simpan",
+    "menu_icon": "fas fa-save",
+    "menu_group": "settings",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "28",
+    "menu_label": "Unggah File",
+    "menu_slug": "file/simpan",
+    "menu_icon": "fas fa-file-upload",
+    "menu_group": "content",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "29",
+    "menu_label": "Hapus File",
+    "menu_slug": "file/hapus",
+    "menu_icon": "fas fa-trash-alt",
+    "menu_group": "content",
+    "menu_mode": "w",
+    "menu_sequence": null,
+    "menu_location": "btnmenu"
+  },
+  {
+    "menu_id": "31",
+    "menu_label": "Informasi & Pedoman",
+    "menu_slug": "informasi-pedoman",
+    "menu_icon": "fas fa-info",
+    "menu_group": "information",
+    "menu_mode": "r",
+    "menu_sequence": "3",
+    "menu_location": "mainmenu"
+  }
+]
