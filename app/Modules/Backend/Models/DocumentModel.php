@@ -23,7 +23,7 @@ class DocumentModel extends Model
     
     public function getDocuments(array $params)
     {
-        return $this->select('tb_documents.*, b.user_realname, c.category_code, c.category_name, SUM(CASE WHEN d.deleted_at IS NULL THEN 1 ELSE 0 END) as file_count')
+        return $this->select('tb_documents.*, b.user_realname, c.category_code, c.category_name, SUM(CASE WHEN d.file_id IS NOT NULL AND d.deleted_at IS NULL THEN 1 ELSE 0 END) as file_count')
                     ->join('tb_users b', 'b.user_id = tb_documents.user_id', 'left')
                     ->join('tb_categories c', 'c.category_id = tb_documents.category_id', 'left')
                     ->join('tb_files d', 'd.document_id = tb_documents.document_id', 'left')
@@ -36,7 +36,6 @@ class DocumentModel extends Model
                     ->where('spj_date <= ', $params['endDate'])
                     ->where('tb_documents.document_classification',  $params['classification'])
                     ->where('tb_documents.deleted_at IS NULL')
-                    ->where('d.deleted_at IS NULL')
                     ->groupBy('tb_documents.document_id')
                     ->orderBy($params['orderBy'], $params['orderDir'])
                     ->get($params['length'], $params['start'])->getResultArray();
