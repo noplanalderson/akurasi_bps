@@ -182,7 +182,7 @@ class CategoryController extends BackendController
                 'status' => $status,
                 'token' => csrf_hash(),
                 'message' => $message,
-                'data' => $data['category_id'],
+                // 'data' => $data['category_id'],
                 'errors' => $errors
             ];
             return $this->response->setStatusCode(200)->setJSON($result);
