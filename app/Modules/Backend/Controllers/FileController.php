@@ -72,7 +72,7 @@ class FileController extends BackendController
                 $this->validation->setRule(
                     $post['classification'], 
                     $classification[$post['classification']], 
-                    'uploaded['.$post['classification'].']|max_size['.$post['classification'].',5000]|mime_in['.$post['classification'].',application/pdf]|ext_in[pdf]');
+                    'uploaded['.$post['classification'].']|max_size['.$post['classification'].',5000]|mime_in['.$post['classification'].',application/pdf]|ext_in['.$post['classification'].',pdf]');
                     
                 if($this->validation->withRequest($this->request)->run()) {
                     $file = $this->request->getFile($post['classification']);
