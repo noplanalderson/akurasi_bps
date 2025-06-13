@@ -59,7 +59,7 @@ class FileModel extends Migration
         ]);
 
         $this->forge->addKey('file_id', true);
-        $this->forge->addForeignKey('document_id', 'tb_documents', 'user_id', 'CASCADE','CASCADE');
+        $this->forge->addForeignKey('document_id', 'tb_documents', 'document_id', 'CASCADE','CASCADE');
         $this->forge->createTable('tb_files', true);
     }
 
